@@ -1,0 +1,57 @@
+body {
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.site_header {
+    padding: 20px;
+    background-color:#1C2E3B;
+}
+
+.br {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.gr a{
+    font-size: 16px;
+    padding: 0 50px !important;
+    color: white;
+    font-family: inherit;
+}
+.container-fluid{
+    background-color:#1C2E3B;
+}
+.brun{
+    color: white;
+    font-size: 50px;
+    font-weight: 0 !important;
+    padding-top: 75px;
+}
+.add{
+    font-size: 20px;
+    color: white;
+    margin-top: 50px;
+}
+
+.order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.order img{
+    height: 500px;
+    margin-top: 200px;
+}
+.now img{
+
+}
+.now{
+    display: flex;
+}
