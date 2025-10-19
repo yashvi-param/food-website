@@ -1,9 +1,40 @@
-.logo{
-    font-size: 95px;
-}
-.active{
-    color:#6A6A3A
-}
-.pad{
-    padding: 150px !important;;
-}
+body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 60px 80px;
+      background-color: #f9f7f4; 
+    }
+
+    .logo {
+      font-size: 100px;
+      font-weight: 700;
+      color: black;
+    }
+
+    .nav-links {
+      text-align: right;
+    }
+
+    .nav-links a {
+      display: block;
+      text-decoration: none;
+      font-size: 16px;
+      color: black;
+      margin-bottom: 8px;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a.active {
+      color: olive;
+      font-weight: 600;
+    }
+
+    .nav-links a:hover {
+      color: #555;
+    }
