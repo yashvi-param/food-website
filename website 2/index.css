@@ -104,3 +104,85 @@ body {
 .about-link:hover {
   color: #333;
 }
+
+.logo1 {
+  font-size: 70px;
+  color: black;
+}
+
+.about-link1 {
+  font-size: 20px;
+  color: black;
+  text-decoration: underline;
+}
+
+/* Reset styles */
+
+/* Header */
+.header {
+  padding: 20px 40px;
+}
+.logo {
+  width: 60px; /* adjust as needed */
+}
+
+/* Main content */
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 100px 60px;
+  flex: 1;
+}
+
+/* Left section */
+.left h3 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.left h1 {
+  font-size: 100px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+
+/* Contact info in the middle */
+.middle {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Right navigation */
+.right ul {
+  list-style: none;
+  text-align: right;
+}
+
+.right ul li {
+  margin-bottom: 8px;
+}
+
+.right ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  transition: opacity 0.3s;
+}
+
+.right ul li a:hover {
+  opacity: 0.6;
+}
+
+/* Footer text */
+.footer-text {
+  font-size: 14px;
+  margin-top: 60px;
+}
+
+.footer-text a {
+  color: #000;
+  text-decoration: underline;
+}
